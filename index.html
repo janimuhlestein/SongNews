@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4.3.2/css/metro-all.min.css">
+    <link rel = "stylesheet" href="assets/css/styles.css">
+    <title>News and Music, Recepies, and More</title>
+</head>
+<body>
+    <aside class="sidebar pos-absolute z-2"
+    data-role="sidebar"
+    data-toggle="#sidebar-toggle-3"
+    id="sb3"
+    data-shift=".shifted-content">
+ <div class="sidebar-header" data-image="./assets/images/menu-img-bg.png">
+ </div>
+ <ul class="sidebar-menu">
+     <li><a><span class="mif-home icon" id="home"></span>Home</a></li>
+     <li id="news"><a><span class="mif-news icon" id="news"></span>Headlines</a></li>
+     <li id="music"><a><span class="mif-music icon" id="music"></span>Music Info</a></li>
+     <li id="weather"><a><span class="mif-weather4 icon" id="weather"></span>Weather</a></li>
+     <li id="recipies"><a><span class="mif-book-reference icon" id="recipies"></span>Recipes</a></li>
+ </ul>
+</aside>
+<div class="shifted-content h-100 p-ab">
+ <div class="app-bar pos-absolute bg-cyan z-1" data-role="appbar">
+     <button class="app-bar-item c-pointer" id="sidebar-toggle-3">
+         <span class="mif-menu fg-white"></span>
+     </button>
+ </div>
+ <div class = "display" id="mainBox">
+     <h2>Welcome to NewsSong!</h2>
+     <p>We provide news, music information, recipies, and more.</p>
+ </div>
+
+ <script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script>
+ <script src = "assets/js/main.js"></script>
+</body>
+</html>
